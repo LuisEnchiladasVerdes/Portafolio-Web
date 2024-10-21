@@ -1,0 +1,229 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    background: rgba(177, 170, 170, 0.541);
+}
+#degradado{
+    border-radius: 80%;
+    height: 74vh;
+    width: 80vh;
+    background: linear-gradient(to right, #6dc79d, #7b6fc7);
+    margin-left: 24vh;
+    margin-top: 20vh;
+    position: absolute;
+    opacity: 0.7;
+}
+
+#tituloG{
+    position: absolute;
+    color: #2b297d;
+    font-size: 7vh;
+    width: 50vh;
+    margin-left: 25vh;
+    margin-top: 22vh;
+}
+
+#remove{
+    position: absolute;
+    margin-top: 42vh;
+    margin-left: 25vh;
+    height: 130px;
+    width: 480px;
+}
+span.barras{
+    position: absolute;
+    font-size: 80px;
+	font-variation-settings: 'OPSZ' 80;
+	color: #2b297d;
+}
+#access{
+    position: absolute;
+    margin-top: 62vh;
+    margin-left: 25vh;
+    height: 130px;
+    width: 480px;
+}
+span.pc{
+    position: absolute;
+    font-size: 75px;
+	font-variation-settings: 'OPSZ' 75;
+	color: #2b297d;
+}
+.titulo{
+    position: absolute;
+    z-index: 100;
+    font-size: x-large;
+    color: white;
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.text{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 380px;
+    color: white;
+}
+
+#logo{
+    position: absolute;
+    margin-top: 88vh;
+    margin-left: 25vh;
+    height: 55px;
+    width: 480px;
+}
+#nombre{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 17px;
+    font-size: large;
+}
+span.bandera{
+    position: absolute;
+    font-size: 50px;
+	font-variation-settings: 'OPSZ' 50;
+	color: #7a32c7;
+}
+
+
+main{
+    background: white;
+    height: 85vh;
+    width: 85vh;
+    margin-top: 5%;
+    margin-left: 50%;
+    position: absolute;
+    border-radius: 30px;
+}
+#crear{
+    /* position: absolute; */
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    margin-top: 50px;
+}
+#sign{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #646464;
+}
+input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(187, 183, 183);
+    margin-top: 10px;
+    
+    justify-content: center;
+}
+#campo1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#campo2{
+    display: flex;
+    justify-content: center;
+}
+#campo3{
+    display: flex;
+    justify-content: center;
+}
+
+#terminos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(187, 183, 183);
+}
+a{
+    text-decoration: none;
+}
+
+#iniciar{
+    display: flex;
+    justify-content: center;
+    background: #2dc268;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 90px;
+}
+#relleno{
+    margin-top: 15px;
+}
+
+#or{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-left: 90px;
+    color: rgb(187, 183, 183);
+}
+.line-left, .line-right {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: rgb(187, 183, 183);
+    margin: 0 10px;
+}
+
+#git{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(187, 183, 183);
+}
+#img-git img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#text-git{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+
+#google{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 310px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(187, 183, 183);
+}
+#img-google img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#text-google{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+

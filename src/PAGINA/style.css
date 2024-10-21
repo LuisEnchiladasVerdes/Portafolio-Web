@@ -1,0 +1,383 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	position: relative;
+}
+header{
+	background-color:#cc1f72;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	z-index: 1000;
+}
+nav li{
+	display: inline-block;
+	padding: 10px;
+}
+nav li a{
+	text-decoration: none;
+	color:white;
+	padding: 5px;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav li a:hover{
+	background-color: rgb(103, 99, 209);
+	color:white;
+}
+
+span.home {
+	font-size: 40px;
+	font-variation-settings: 'OPSZ' 40;
+	color: white;
+}
+
+.contenedor{
+	background-color:#cc1f72;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.titulo{
+	color: white;
+	margin-top: 37vh;
+	margin-left: 15%;
+	font-size: 40px;
+	position: absolute;
+	font: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.descripcion{
+	color: white;
+	margin-top: 52vh;
+	margin-left: 15%;	
+	position: absolute;
+}
+.boton{
+	color: white;
+	background-color:#cc1f72;
+	margin-top: 70vh;
+	margin-left: 15%;	
+	position: absolute;
+	width: 150px;
+	padding: 10px;
+	border-radius: 10px;
+	border-color: white;
+}
+.img-desc img{
+	margin-top: 20vh;
+	margin-left: 50%;
+	height: 70%;
+	position: absolute;
+}
+/*  */
+.menu1{
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+.titulo-menu{
+	margin-top: 100px;
+	margin-left: 40%;
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+}
+.barrita{
+	background-color:#cc1f72;
+	margin-top: 150px;
+	margin-left: 45%;
+	width: 100px;
+	height: 5px;
+	position: absolute;
+}
+.mini{
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 170px;
+	margin-left: 30%;
+}
+
+span.phone{
+	color: #cc1f72;
+	font-size: 80px;
+	font-variation-settings: 'OPSZ' 80;
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 20%;
+}
+.titulo-phone{
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 19%;
+	font-size: large;
+}
+.text-phone{
+	position: absolute;
+	width: 230px;
+	margin-top: 470px;
+	margin-left: 15%;
+}
+
+
+span.conf{
+	color: #cc1f72;
+	font-size: 80px;
+	font-variation-settings: 'OPSZ' 80;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 47%;
+}
+.titulo-conf{
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 48%;
+}
+.text-conf{
+	position: absolute;
+	width: 230px;
+	margin-top: 470px;
+	margin-left: 43%;
+}
+
+
+span.safe{
+	color: #cc1f72;
+	font-size: 80px;
+	font-variation-settings: 'OPSZ' 80;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 75%;
+}
+.titulo-safe{
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 75%;
+}
+.text-safe{
+	position: absolute;
+	width: 230px;
+	margin-top: 470px;
+	margin-left: 70%;
+}
+
+
+.menu2{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	background: #e9e9e9;
+}
+.titulo-menu2{
+	margin-top: 100px;
+	margin-left: 36%;
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+}
+.img-menu2 img{
+	margin-left: 37%;
+	margin-top: 280px;
+	height: 60%;
+	position: absolute;
+}
+
+.marco{
+	position: absolute;
+	background: #cc1f72;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 300px;
+	margin-left: 30%;
+}
+span.lock{
+	color: white;
+	font-size: 30px;
+	font-variation-settings: 'OPSZ' 30;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.titulo1{
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 200px;
+	font-size: 25px;
+}
+#texto1{
+	position: absolute;
+	margin-top: 360px;
+	margin-left: 100px;
+	width: 350px;
+	text-align: right;
+	font-size: 15px;
+}
+
+
+#marco2{
+	position: absolute;
+	background: #cc1f72;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 450px;
+	margin-left: 30%;
+}
+span.eye{
+	color: white;
+	font-size: 30px;
+	font-variation-settings: 'OPSZ' 30;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#titulo2{
+	position: absolute;
+	margin-top: 460px;
+	margin-left: 250px;
+	font-size: 25px;
+}
+#texto2{
+	position: absolute;
+	margin-top: 510px;
+	margin-left: 100px;
+	width: 350px;
+	text-align: right;
+	font-size: 15px;
+}
+
+
+#marco3{
+	position: absolute;
+	background: #cc1f72;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 600px;
+	margin-left: 30%;
+}
+span.custom{
+	color: white;
+	font-size: 30px;
+	font-variation-settings: 'OPSZ' 30;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#titulo3{
+	position: absolute;
+	margin-top: 610px;
+	margin-left: 250px;
+	font-size: 25px;
+}
+#texto3{
+	position: absolute;
+	margin-top: 660px;
+	margin-left: 100px;
+	width: 350px;
+	text-align: right;
+	font-size: 15px;
+}
+
+
+#marco4{
+	position: absolute;
+	background: #cc1f72;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 300px;
+	margin-left: 67%;
+}
+span.rocket{
+	color: white;
+	font-size: 30px;
+	font-variation-settings: 'OPSZ' 30;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#titulo4{
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 72%;
+	font-size: 25px;
+}
+#texto4{
+	position: absolute;
+	margin-top: 360px;
+	margin-left: 67%;
+	width: 350px;
+	font-size: 15px;
+}
+
+
+#marco5{
+	position: absolute;
+	background: #cc1f72;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 450px;
+	margin-left: 67%;
+}
+span.pencil{
+	color: white;
+	font-size: 30px;
+	font-variation-settings: 'OPSZ' 30;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#titulo5{
+	position: absolute;
+	margin-top: 460px;
+	margin-left: 72%;
+	font-size: 25px;
+}
+#texto5{
+	position: absolute;
+	margin-top: 510px;
+	margin-left: 67%;
+	width: 350px;
+	font-size: 15px;
+}
+
+#marco6{
+	position: absolute;
+	background: #cc1f72;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 600px;
+	margin-left: 67%;
+}
+span.ancla{
+	color: white;
+	font-size: 30px;
+	font-variation-settings: 'OPSZ' 30;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#titulo6{
+	position: absolute;
+	margin-top: 610px;
+	margin-left: 72%;
+	font-size: 25px;
+}
+#texto6{
+	position: absolute;
+	margin-top: 660px;
+	margin-left: 67%;
+	width: 350px;
+	font-size: 15px;
+}
